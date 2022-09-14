@@ -44,7 +44,7 @@ a{
     line-height: 1.2;
 }
 
-.main-header h1 span{
+.main-header h1 span:first-child{
   color: #b50d10;
 }
 
