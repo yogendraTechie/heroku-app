@@ -11,14 +11,10 @@
     <link href="./assets/aos_styles/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="./style.css">
     <title>AOS animation</title>
-    <script defer>
-       let partnerResponse =  confirm("Megha, Sweetie are you ok?");
-       document.getElementById("partnerResponse").innerHTML = partnerResponse ? "HAPPY WITH ME" : "NOT HAPPY WITH ME";
-    </script>
 </head>
 <body>
     <header class="main-header">
-        <h1><span>My Partner is <span id="partnerResponse"></span></span> Megha</h1>
+        <h1><span>My Partner Megha is </span> <span id="partnerResponse"></span></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quas.</p>
     </header>
     <main class="container">
@@ -65,6 +61,10 @@
     </main>
     <script src="./assets/aos_styles/aos.js"></script>
     <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+    <script defer>
+       let partnerResponse =  confirm("Megha, Sweetie are you ok?");
+       document.getElementById("partnerResponse").innerHTML = partnerResponse ? "Happy With Me 😇" : "Not Happy With Me 😓";
+    </script>
     <script>
         AOS.init({
             offset:300,
