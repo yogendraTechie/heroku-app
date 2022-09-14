@@ -18,7 +18,7 @@
 </head>
 <body>
     <header class="main-header">
-        <h1><span>My Partner is <span id="partnerResponse"></span></span> Gallery</h1>
+        <h1><span>My Partner is <span id="partnerResponse"></span></span> Megha</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quas.</p>
     </header>
     <main class="container">
