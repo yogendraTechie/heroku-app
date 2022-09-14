@@ -11,10 +11,14 @@
     <link href="./assets/aos_styles/aos.css" rel="stylesheet"> 
     <link rel="stylesheet" href="./style.css">
     <title>AOS animation</title>
+    <script defer>
+       let partnerResponse =  confirm("Megha, Sweetie are you ok?");
+       document.getElementById("partnerResponse").innerHTML = partnerResponse ? "HAPPY WITH ME" : "NOT HAPPY WITH ME";
+    </script>
 </head>
 <body>
     <header class="main-header">
-        <h1><span>My Painting</span> Gallery</h1>
+        <h1><span>My Partner is <span id="partnerResponse"></span></span> Gallery</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quas.</p>
     </header>
     <main class="container">
